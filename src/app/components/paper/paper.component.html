@@ -2,6 +2,7 @@
     <mat-card-title>{{ paper.name }}</mat-card-title>
     <mat-card-subtitle>{{ paper.author }}</mat-card-subtitle>
     <mat-card-content>
+        <p>In <span style="font-style: italic;">{{paper.publicAt}}</span></p>    
         <mat-expansion-panel (opened)="abstractOpen = true"
         (closed)="abstractOpen = false">
             <mat-expansion-panel-header>
