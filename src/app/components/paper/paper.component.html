@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-title>{{ paper.name }}</mat-card-title>
+    <mat-card-subtitle>{{ paper.author }}</mat-card-subtitle>
+    <mat-card-content>
+        <mat-expansion-panel (opened)="abstractOpen = true"
+        (closed)="abstractOpen = false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Abstract
+              </mat-panel-title>
+              <mat-panel-description *ngIf="!abstractOpen">
+                <div style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; max-width: 5rem;">                
+                    {{paper.abstract}}
+                </div>
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>{{paper.abstract}}</p>
+          </mat-expansion-panel>
+    </mat-card-content>
+    <mat-card-actions>
+        <a mat-icon-button (click)="openInNewTab(paper.githubLink)">
+            <mat-icon svgIcon="github"></mat-icon>
+        </a>
+        <a mat-icon-button (click)="openInNewTab(paper.paperLink)">
+            <mat-icon>attach_file</mat-icon>
+        </a>
+    </mat-card-actions>
+</mat-card>
