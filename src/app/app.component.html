@@ -1,7 +1,5 @@
-<mat-toolbar color="primary">
-  <button mat-button routerLink="">Home</button>
-  <button mat-button routerLink="publications">Publications</button>
-</mat-toolbar>
-<div style="padding: 2rem;">
-  <router-outlet></router-outlet>
-</div>
+<app-navbar [items]="navItems">
+  <div style="padding: 2rem; min-height: 100%;">
+    <router-outlet></router-outlet>
+  </div>  
+</app-navbar>

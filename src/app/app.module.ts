@@ -15,6 +15,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import {MatButtonModule} from '@angular/material/button';
 import { HttpClientModule } from "@angular/common/http";
 import {MatListModule} from '@angular/material/list';
+import { UranusModule } from './uranus/uranus.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ import {MatListModule} from '@angular/material/list';
     MatGridListModule,
     MatButtonModule,
     HttpClientModule,
-    MatListModule
+    MatListModule,
+    UranusModule
   ],
   providers: [],
   bootstrap: [AppComponent]
