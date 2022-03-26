@@ -15,6 +15,9 @@ export class NavbarComponent implements OnInit {
   @Input()
   items!: NavbarItem[];
 
+  @Input()
+  title!: string;
+
   isDesktop!: Observable<boolean>;
 
   constructor(private bo: BreakpointObserver) { }
