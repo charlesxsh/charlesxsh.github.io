@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Paper } from 'src/app/components/paper/paper';
-import { papers } from 'src/app/papers';
+import { Paper } from 'src/app/uranus/components/paper/paper';
+import papers from "src/generated/uranus-bibtex"
 
 @Component({
   selector: 'app-publication-page',

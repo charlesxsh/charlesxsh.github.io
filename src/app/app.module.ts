@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { PaperComponent } from './components/paper/paper.component';
 import { PublicationPageComponent } from './pages/publication-page/publication-page.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
@@ -20,7 +19,6 @@ import { UranusModule } from './uranus/uranus.module';
 @NgModule({
   declarations: [
     AppComponent,
-    PaperComponent,
     PublicationPageComponent,
     HomePageComponent
   ],

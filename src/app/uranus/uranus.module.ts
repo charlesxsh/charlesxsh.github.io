@@ -6,14 +6,22 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatCardModule} from '@angular/material/card';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatDialogModule} from '@angular/material/dialog';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
+import { PaperAbstractDialog, PaperBibtexDialog, PaperComponent } from './components/paper/paper.component';
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    PaperComponent,
+    PaperAbstractDialog,
+    PaperBibtexDialog
   ],
   imports: [
     CommonModule,
@@ -23,10 +31,15 @@ import { RouterModule } from '@angular/router';
     RouterModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatChipsModule,
+    MatCardModule,
+    MatTooltipModule,
+    MatDialogModule
   ],
   exports: [
-    NavbarComponent
+    NavbarComponent,
+    PaperComponent
   ]
 })
 export class UranusModule { }
