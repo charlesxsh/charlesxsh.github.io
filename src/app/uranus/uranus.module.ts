@@ -10,18 +10,22 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatDialogModule} from '@angular/material/dialog';
-
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
 import { PaperAbstractDialog, PaperBibtexDialog, PaperComponent } from './components/paper/paper.component';
-
+import { PaperListComponent } from './components/paper-list/paper-list.component';
+import {MatSelectModule} from '@angular/material/select';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     NavbarComponent,
     PaperComponent,
     PaperAbstractDialog,
-    PaperBibtexDialog
+    PaperBibtexDialog,
+    PaperListComponent
   ],
   imports: [
     CommonModule,
@@ -35,11 +39,16 @@ import { PaperAbstractDialog, PaperBibtexDialog, PaperComponent } from './compon
     MatChipsModule,
     MatCardModule,
     MatTooltipModule,
-    MatDialogModule
+    MatDialogModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   exports: [
     NavbarComponent,
-    PaperComponent
+    PaperComponent,
+    PaperListComponent
   ]
 })
 export class UranusModule { }
