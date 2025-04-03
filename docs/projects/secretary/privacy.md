@@ -4,7 +4,7 @@
 **Last Updated:** 03/09/25
 
 **1. Introduction**  
-Turtle Soup ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our application ("App").
+Secretary ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our application ("App").
 
 **2. Information We Collect**  
 We do not store any personal data beyond the following:
@@ -49,7 +49,7 @@ You have the following rights regarding your data:
 We may update this Privacy Policy periodically. Any significant changes will be communicated through the App or our official website. Your continued use of the App after modifications constitutes acceptance of the updated policy.
 
 **9. Contact Us**  
-If you have any questions about this Privacy Policy, you may contact us at: support@turtlesoup.club
+If you have any questions about this Privacy Policy, you may contact us at: support@mysecretary.one
 
 
 

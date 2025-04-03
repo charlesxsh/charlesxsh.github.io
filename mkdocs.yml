@@ -20,6 +20,9 @@ nav:
       - projects/jarvis/index.md
     - Softlife: 
       - projects/softlife/index.md
+    - Secretary:
+      - projects/secretary/index.md
+      - projects/secretary/privacy.md
   
   - Blog:
     - blog/index.md 
