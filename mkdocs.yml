@@ -16,6 +16,7 @@ nav:
       - projects/turtlesoup/privacy.md
     - Instago:
       - projects/instago/index.md
+      - projects/instago/privacy.md
     - Jarvis: 
       - projects/jarvis/index.md
     - Softlife: 
@@ -23,7 +24,8 @@ nav:
     - Secretary:
       - projects/secretary/index.md
       - projects/secretary/privacy.md
-  
+  - Research:
+    - research/index.md
   - Blog:
     - blog/index.md 
 plugins:
