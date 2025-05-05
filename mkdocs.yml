@@ -1,6 +1,8 @@
 theme:
   name: material
-  logo:
+  icon:
+    logo: material/home
+  favicon:
   features:
     - navigation.tabs
     - navigation.sections
