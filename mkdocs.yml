@@ -10,26 +10,26 @@ theme:
 site_name: Shihao Xia
 nav:
   - Home: index.md
-  - Projects:
-    - AICourt:
-      - projects/aicourt/index.md
-    - Turtle Soup:  
-      - projects/turtlesoup/index.md
-      - projects/turtlesoup/privacy.md
-    - Instago:
-      - projects/instago/index.md
-      - projects/instago/privacy.md
-    - Jarvis: 
-      - projects/jarvis/index.md
-    - Softlife: 
-      - projects/softlife/index.md
-    - Secretary:
-      - projects/secretary/index.md
-      - projects/secretary/privacy.md
+  # - Projects:
+  #   - AICourt:
+  #     - projects/aicourt/index.md
+  #   - Turtle Soup:  
+  #     - projects/turtlesoup/index.md
+  #     - projects/turtlesoup/privacy.md
+  #   - Instago:
+  #     - projects/instago/index.md
+  #     - projects/instago/privacy.md
+  #   - Jarvis: 
+  #     - projects/jarvis/index.md
+  #   - Softlife: 
+  #     - projects/softlife/index.md
+  #   - Secretary:
+  #     - projects/secretary/index.md
+  #     - projects/secretary/privacy.md
   - Research:
     - research/index.md
-  - Blog:
-    - blog/index.md 
+  # - Blog:
+  #   - blog/index.md 
 plugins:
   - blog:
       categories_allowed:
